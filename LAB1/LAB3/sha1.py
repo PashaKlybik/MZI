@@ -54,5 +54,5 @@ def hash_block(blocks):
     return answer
 
 def hash(byte):
-    print len(byte)
+    #print len(byte)
     return hash_block(append_bit(byte))
