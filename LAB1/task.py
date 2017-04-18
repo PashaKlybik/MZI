@@ -118,8 +118,6 @@ def write_decrypted_file(file_name, input_data):
     print sha1.hash(all_text)
     print "OK"
 
-
-
 def main():
     inicialconst("abcdefg")
     a = raw_input("1- Encrypt, 2- decrypt, 0 - close\n")
@@ -130,8 +128,6 @@ def main():
             write_decrypted_file(raw_input("write output filename:"), read_file(raw_input("write input file:")))
         else: print "Error"
         a = raw_input("1- Encrypt, 2- decrypt, 0 - close\n")
-
-
 
 if __name__ == "__main__":
     main()
